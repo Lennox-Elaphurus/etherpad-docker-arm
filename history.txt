@@ -1,0 +1,1000 @@
+ 1008  docker ps
+ 1009  docker network
+ 1010  docker network ls
+ 1011  docker network inspect
+ 1012  docker network inspect e2fef27c6316
+ 1013  sudo apt-get update
+ 1014  ls -lh /usr/bin/gcc* 
+ 1015  git clone https://github.com/simp/simp-core.git --branch 5.1.X
+ 1016  cd simp-core
+ 1017  bundle install
+ 1018  sudo apt-get update
+ 1019  sudo apt-get upgrade
+ 1020  sudo apt-get install Gtk-v4l
+ 1021  cd centos
+ 1022  cd centos7
+ 1023  ls
+ 1024  cd vagrant
+ 1025  vagrant up
+ 1026  vagrant init
+ 1027  vagrant up
+ 1028  ls
+ 1029  cd centos-atomic
+ 1030  vagrant up
+ 1031  vagrant ssh
+ 1032  mkdir centos7-vagrant
+ 1033  cd centos7-vagrant
+ 1034  vagrant init centos/7; vagrant up --provider virtualbox
+ 1035  vagrant ssh
+ 1036  git clone https://github.com/flynn/flynn
+ 1037  cd flynn/demo
+ 1038  vagrant up
+ 1039  cd
+ 1040  cd OpenStandards
+ 1041  atom .
+ 1042  cd datagovATO
+ 1043  atom .
+ 1044  cd
+ 1045  cd catalog-app
+ 1046  git pull
+ 1047  docker-compose up
+ 1048  atom .
+ 1049  sudo docker-compose up
+ 1050  cd
+ 1051  git clone https://github.com/GSA/catalog-pycsw
+ 1052  cd catalog-pycsw
+ 1053  docker build
+ 1054  docker build .
+ 1055  docker up .
+ 1056  docker --help
+ 1057  docker start 16e8f8705f8b
+ 1058  docker start .
+ 1059  docker ps -a
+ 1060  docker start datagov/catalog-pycsw:latest
+ 1061  docker start datagov/catalog-pycsw
+ 1062  docker run datagov/catalog-pycsw
+ 1063  docker ps
+ 1064  docker-compose kill
+ 1065  sudo apt-get upgrade
+ 1066  sudo apt-get install photorec
+ 1067  sudo photorec
+ 1068  cd
+ 1069  git clone https://github.com/theforeman/foreman-installer
+ 1070  cd foreman-installer
+ 1071  foremen-installer
+ 1072  ls
+ 1073  cd
+ 1074  cd catalog-app
+ 1075  git pull https://github.com/GSA/catalog-app
+ 1076  docker-compose up
+ 1077  sudo service apache2 stop
+ 1078  docker-compose up
+ 1079  docker-compose build
+ 1080  docker-compose kill
+ 1081  docker-compose up
+ 1082  docker-compose ps
+ 1083  docker-compose kill
+ 1084  docker-compose up
+ 1085  testdisk
+ 1086  recoverdm
+ 1087  fdflush
+ 1088  testdisk
+ 1089  git clone https://github.com/JJediny/catalog-deploy
+ 1090  cd catalog-deploy
+ 1091  vagrant up
+ 1092  sudo apt-get install ansible
+ 1093  vagrant up
+ 1094  cd datagovATO
+ 1095  atom .
+ 1096  cd
+ 1097  git clone https://git.nzoss.org.nz/lightweight/openstandardsnz-drupal.git
+ 1098  cd datagovATO
+ 1099  atom .
+ 1100  docker build -t geographica/pycsw
+ 1101  docker build geographica/pycsw
+ 1102  cd
+ 1103  docker build -t geographica/pycsw:2.0-dev .
+ 1104  docker pull datagov/catalog-pycsw
+ 1105  docker run datagov/catalog-pycsw:latest
+ 1106  docker ps
+ 1107  cd catalog-app
+ 1108  docker-compose up
+ 1109  docker pull datagov/catalog-nginx
+ 1110  docker pull datagov/catalog-scheduler
+ 1111  docker-compose --help
+ 1112  docker-compose build --help
+ 1113  docker-compose build --pull
+ 1114  docker-compose up
+ 1115  sudo service apache2 tomcat7 stop
+ 1116  sudo service apache2 stop
+ 1117  sudo service tomcat7 stop
+ 1118  docker-compose up
+ 1119  docker-compose down
+ 1120  sudo apt-get update
+ 1121  sudo apt-get upgrade
+ 1122  wget -qO- 'https://pgp.mit.edu/pks/lookup?op=get&search=0xee6d536cf7dc86e2d7d56f59a178ac6c6238f52e' | sudo apt-key add --import
+ 1123  sudo apt-get update && sudo apt-get install apt-transport-https
+ 1124  sudo apt-get install -y linux-image-extra-virtual
+ 1125  echo "deb https://packages.docker.com/1.10/apt/repo ubuntu-trusty main" | sudo tee /etc/apt/sources.list.d/docker.list
+ 1126  sudo apt-get update && sudo apt-get install docker-engine
+ 1127  docker run -it --rm docker/dtr install --ucp-insecure-tls
+ 1128  docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock --name ucp docker/ucp install -i --swarm-port 3376 --host-address $(docker-machine ip node1)
+ 1129  docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock --name ucp docker/ucp install -i --swarm-port 3376 --host-address $(127.0.0.1:2376)
+ 1130  cd catalog-app
+ 1131  docker-compose run app /bin/bash
+ 1132  atom .
+ 1133  cd ckan
+ 1134  python setup.py build
+ 1135  cd
+ 1136  git clone https://github.com/qgis/QGIS
+ 1137  cd qgis
+ 1138  cd QGIS
+ 1139  python setup.py build
+ 1140  git clone https://github.com/OpenSCAP/scap-security-guide
+ 1141  cd scap-security-guide
+ 1142  git pull https://github.com/OpenSCAP/scap-security-guide
+ 1143  atom .
+ 1144  cd
+ 1145  git clone https://github.com/kubespray/kargo
+ 1146  cd kargo
+ 1147  vagrant up
+ 1148  sudo wget https://github.com/skippbox/kompose/releases/download/v0.0.3/kompose_linux-amd64.tar.gz
+ 1149  sudo tar zxf kompose_linux-amd64.tar.gz
+ 1150  mv kompose_linux-amd64/kompose /usr/local/bin/kompose
+ 1151  sudo mv kompose_linux-amd64/kompose /usr/local/bin/kompose
+ 1152  chmod +x /usr/local/bin/kompose
+ 1153  sudo chmod +x /usr/local/bin/kompose
+ 1154  cd catalog-app
+ 1155  kompose
+ 1156  kompose k8s convert -f docker-compose.yml -y
+ 1157  cd
+ 1158  git clone https://github.com/skippbox/kompose
+ 1159  cd kompose/samples
+ 1160  kompose k8s convert -f docker-gitlab.yml -y
+ 1161  cd ..
+ 1162  atom .
+ 1163  git clone https://github.com/GovReady/compliancekbs
+ 1164  cd compliancekbs
+ 1165  atom .
+ 1166  cd
+ 1167  cd datagovATO
+ 1168  atom .
+ 1169  cd Downloads
+ 1170  sudo tar zxf kompose_linux-amd64.tar.gz
+ 1171  sudo tar zxf NIEM_UML_linux64.tar.gz
+ 1172  cd
+ 1173  git clone https://github.com/ckan/ckan
+ 1174  cd datagovATO
+ 1175  atom .
+ 1176  cd datagovATO
+ 1177  atom .
+ 1178  cd
+ 1179  cd datajson-editor
+ 1180  atom .
+ 1181  jekyll serve
+ 1182  cd 
+ 1183  cd catalog-app
+ 1184  docker-compose up
+ 1185  sudo service apache2 stop
+ 1186  sudo service tomcat7 stop
+ 1187  docker-compose up
+ 1188  cd
+ 1189  ls /sys/class/backlight/
+ 1190  sudo touch /usr/share/X11/xorg.conf.d/20-intel.conf
+ 1191  sudo nano /usr/share/X11/xorg.conf.d/20-intel.conf
+ 1192  sudo apt-get update
+ 1193  sudo apt-get upgrade
+ 1194  sudo nano /etc/default/grub
+ 1195  sudo update-grub
+ 1196  cd datagovATO
+ 1197  atom .
+ 1198  cd
+ 1199  sudo apt-get install intel-linux-graphics-installer
+ 1200  cd CSW
+ 1201  python harvest-csw.py https://catalog.data.gov/csw
+ 1202  vagrant init centos/atomic-host && vagrant up --provider virtualbox 
+ 1203  vagrant ssh
+ 1204  sudo service apache2 stop
+ 1205  sudo service tomcat7 stop
+ 1206  wget -q -O - https://jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+ 1207  sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+ 1208  sudo apt-get update
+ 1209  sudo apt-get install jenkins
+ 1210  sudo apt-get update
+ 1211  docker ps
+ 1212  docker kill 5d1a21a1feb9
+ 1213  docker-compose os
+ 1214  docker-compose ps
+ 1215  sudo service apache2 stop
+ 1216  sudo service tomcat7 stop
+ 1217  cd datagovATO
+ 1218  atom .
+ 1219  nessus
+ 1220  docker run --rm -it --name ucp   -v /var/run/docker.sock:/var/run/docker.sock   docker/ucp install -i   --host-address 127.0.0.1
+ 1221  netstat -a | grep 2376
+ 1222  docker run --rm -it --name ucp   -v /var/run/docker.sock:/var/run/docker.sock   docker/ucp install -i   --host-address localhost
+ 1223  docker run --rm -it --name ucp   -v /var/run/docker.sock:/var/run/docker.sock   docker/ucp install -i   --host-address 127.0.0.1
+ 1224  docker-compose kill *.*
+ 1225  git clone https://github.com/JJediny/bpmn-js
+ 1226  cd bpmn-js
+ 1227  sudo npm install
+ 1228  grunt
+ 1229  sudo npm install phantomJS
+ 1230  sudo npm install PhantomJS
+ 1231  sudo npm install phantomjs
+ 1232  grunt
+ 1233  sudo npm start
+ 1234  nodejs serve
+ 1235  python -m SimpleHTTPServer 8000
+ 1236  sudo apt-get install chkrootkit
+ 1237  sudo apt-get install grub-efi-amd64
+ 1238  sudo apt-get install grub-efi-amd64-signed
+ 1239  sudo apt-get install -f grub-efi-amd64-signed
+ 1240  sudo add-apt-repository ppa:yannubuntu/boot-repair
+ 1241  sudo apt-get update
+ 1242  sudo apt-get install -y boot-repair && boot-repair
+ 1243  sudo apt-get update
+ 1244  sudo apt-get upgrade
+ 1245  sudo apt-get purge ossec-hid
+ 1246  sudo apt-get purge ossec-hids
+ 1247  sudo apt-get update
+ 1248  sudo apt-get upgrade
+ 1249  sudo apt-get autoremove
+ 1250  sudo apt-get upgrade
+ 1251  sudo apt-get install -y boot-repair && boot-repair
+ 1252  boot-repair
+ 1253  top
+ 1254  sudo apt-get purge nessusd
+ 1255  sudo su
+ 1256  grep -E "state|to\ full|percentage"
+ 1257  upower
+ 1258  sudo apt-get install upower
+ 1259  upower -e
+ 1260  upower -i /org/freedesktop/UPower/devices/line_power_ADP1
+ 1261  sudo efibootmgr
+ 1262  upower --help
+ 1263  upower -m
+ 1264  upower --monitor-detail
+ 1265  upower -i
+ 1266  upower -d
+ 1267  lsdvc
+ 1268  sudo fdisk -l
+ 1269  sudo apt-get install grub-emu
+ 1270  grub-emu
+ 1271  sudo dmesg -c
+ 1272  sudo apt-get install hal-applesmc
+ 1273  sudo apt-get install testdisk
+ 1274  lsusb
+ 1275  lsusb -v
+ 1276  lshw
+ 1277  sudo lshw
+ 1278  usb-devices
+ 1279  mount
+ 1280  sudo blkid
+ 1281  dmesg
+ 1282  sudo fdisk -l
+ 1283  umount
+ 1284  sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
+ 1285  sudo apt-get update
+ 1286  sudo apt-get install sqlitebrowser
+ 1287  sqlitebrowser
+ 1288  sudo updatedb
+ 1289  locate .db
+ 1290  sudo apt-get update
+ 1291  sudo apt-get upgrade
+ 1292  cd ansible-core-modules
+ 1293  ls
+ 1294  sudo apt-get update
+ 1295  sudo apt-get upgrade
+ 1296  qgis
+ 1297  sudo su
+ 1298  qgis
+ 1299  sudo apt-get purge qgis
+ 1300  sudo apt-get update
+ 1301  sudo apt-get install qgis
+ 1302  qgis
+ 1303  qgis
+ 1304  sudo apt-get install qtconfig-qt4
+ 1305  qtconfig-qt4
+ 1306  sudo apt-get install qt4-qtconfig
+ 1307  qgis
+ 1308  im-config -n xim
+ 1309  sudo su
+ 1310  qgis
+ 1311  sudo su
+ 1312  git clone https://github.com/GSA/catalog-deploy
+ 1313  cd catalog-deploy
+ 1314  git status
+ 1315  git pull
+ 1316  git pull https://github.com/JJediny/catalog-deploy
+ 1317  atom .
+ 1318  sudo apt-get install josm-latest
+ 1319  wget -q https://josm.openstreetmap.de/josm-apt.key -O- | sudo apt-key add -
+ 1320  sudo apt-get update
+ 1321  sudo apt-get install josm-latest
+ 1322  sudo apt-get install josm
+ 1323  sudo apt-get install libmetadata-extractor-java
+ 1324  sudo apt-get install josm
+ 1325  sudo su
+ 1326  top
+ 1327  cd datagovATO
+ 1328  atom .
+ 1329  cd
+ 1330  sudo apt-get install build-essential inotify-tools
+ 1331  ls -l ossec*
+ 1332  wget -U ossec http://www.ossec.net/files/ossec-hids-2.8.1-checksum.txt
+ 1333  wget -U ossec http://www.ossec.net/files/ossec-hids-2.8.1.tar.gz
+ 1334  ossec-hids-2.8.1-checksum.txt
+ 1335  ls -l ossec*
+ 1336  cat ossec-hids-2.8.1-checksum.txt
+ 1337  md5sum ossec-hids-2.8.1.tar.gz
+ 1338  sha1sum  ossec-hids-2.8.1.tar.gz
+ 1339  tar -zxf ossec-hids-2.8.1.tar.gz
+ 1340  cd ossec-hids-2.8.1
+ 1341  ls -lgG
+ 1342  ./install.sh
+ 1343  sudo ./install.sh
+ 1344  ossec
+ 1345  /var/ossec/bin/ossec-control start
+ 1346  sudo /var/ossec/bin/ossec-control start
+ 1347  /var/ossec/bin/agent_control -r -a
+ 1348  sudo /var/ossec/bin/agent_control -r -a
+ 1349  sudo apt-get install mysql-dev postgresql-dev
+ 1350  ossec-logtest -U
+ 1351  sudo /var/ossec/bin/ossec-control ossec-logtest -U
+ 1352  start
+ 1353  sudo /var/ossec/bin/ossec-logtest -f
+ 1354  sudo /var/ossec/bin/ossec-logtest -t
+ 1355  sudo su
+ 1356  sudo gem install fluentd
+ 1357  rvm --help
+ 1358  rvm use --latest
+ 1359  sudo gem install fluentd
+ 1360  curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-trusty-td-agent2.sh | sh
+ 1361  git clone https://github.com/fluent/fluentd-ui
+ 1362  cd fluentd-ui
+ 1363  bundle exec rails s
+ 1364  cat /var/log/secure | /var/ossec/bin/ossec-logtest -a |/var/ossec/bin/ossec-reported -f group authentication_failures
+ 1365  sudo cat /var/log/secure | /var/ossec/bin/ossec-logtest -a |/var/ossec/bin/ossec-reported -f group authentication_failures
+ 1366  cat /var/log/secure | /var/ossec/bin/ossec-logtest -a
+ 1367  sudo cat /var/log/secure | /var/ossec/bin/ossec-logtest -a
+ 1368  sudo suy
+ 1369  sudo su
+ 1370  cd cis-ubuntu-ansible
+ 1371  git clone https://github.com/JJediny/cis-ubuntu-ansible
+ 1372  cd cis-ubuntu-ansible
+ 1373  atom .
+ 1374  cd datagovATO
+ 1375  atom .
+ 1376  cd
+ 1377  cd catalog-deploy
+ 1378  git pull https://github.com/GSA/catalog-deploy
+ 1379  atom .
+ 1380  sudo apt-get install dvdisaster
+ 1381  dvdisaster
+ 1382  sudo apt-get install foremost
+ 1383  foremost 
+ 1384  cd
+ 1385  sudo apt-get install photorec
+ 1386  sudo photorec
+ 1387  cd AWSkeypair
+ 1388  cd AWSkeypairs
+ 1389  cd AWS-keypair
+ 1390  ssh -i "FISMA-ready-test.pem" ubuntu@52.5.174.156
+ 1391  ssh -i "FISMA-ready-test.pem" ubuntu@10.0.58.86
+ 1392  ssh -i "FISMA-ready-test.pem" ubuntu@52.5.174.156
+ 1393  git clone https://github.com/JJediny/ansible-geonode
+ 1394  cd ansible-geonode
+ 1395  git pull https://github.com/JJediny/ansible-geonode
+ 1396  atom .
+ 1397  cd
+ 1398  sudo photorec
+ 1399  cd datagovATO
+ 1400  atom .
+ 1401  mkdir ansible-tower
+ 1402  cd ansible-tower
+ 1403  vagrant init ansible/tower
+ 1404  vagrant up --provider virtualbox
+ 1405  vagrant ssh
+ 1406  cd catalog-deploy
+ 1407  atom .
+ 1408  git add --a
+ 1409  git commit --a
+ 1410  git commit -a
+ 1411  git push https://github.com/GSA/catalog-deploy
+ 1412  git pull https://github.com/GSA/catalog-deploy
+ 1413  git push https://github.com/GSA/catalog-deploy
+ 1414  git commit -a
+ 1415  git push https://github.com/GSA/catalog-deploy
+ 1416  top
+ 1417  sudo service --help
+ 1418  sudo service --status-all
+ 1419  sudo service salt-master stop
+ 1420  sudo service ossec start
+ 1421  git clone https://github.com/ossec/ossec-hids
+ 1422  cd ossec-hids
+ 1423  . /install.sh
+ 1424  ./install.sh
+ 1425  sudo ./install.sh
+ 1426  cd
+ 1427  sudo       /var/ossec/bin/ossec-control start
+ 1428  sudo su
+ 1429  cd catalog-deploy
+ 1430  atom .
+ 1431  cd
+ 1432  fluentd -c in_docker.conf
+ 1433  sudo apt-get install ossec-hids-agent
+ 1434  # /var/ossec/bin/ossec-control start
+ 1435  cd datagov-catalog
+ 1436  cd catalog-apa
+ 1437  cd catalog-app
+ 1438  atom .
+ 1439  docker-compose up
+ 1440  docker start
+ 1441  docker-machine start default
+ 1442  sudo apt-get install docker-compose
+ 1443  apt-get install apparmor
+ 1444  sudo apt-get install apparmor
+ 1445  sudo docker-compose migrate-to-labels
+ 1446  sudo service docker start
+ 1447  docker ps
+ 1448  docker-compose up
+ 1449  sudo apt-get purge apache2
+ 1450  sudo apt-get purge tomcat7
+ 1451  docker-compose up
+ 1452  cd catalog-deploy
+ 1453  atom .
+ 1454  git pull https://github.com/GSA/catalog-deploy
+ 1455  op
+ 1456  top
+ 1457  wget http://ossec.github.io/files/OSSEC-PGP-KEY.asc
+ 1458  gpg –import OSSEC-PGP-KEY.asc
+ 1459  gpg -import OSSEC-PGP-KEY.asc
+ 1460  gpg --help
+ 1461  gpg --import OSSEC-PGP-KEY.asc
+ 1462  gpg --verify OSSEC-PGP-KEY.asc
+ 1463  apt-key adv --fetch-keys http://ossec.wazuh.com/repos/apt/conf/ossec-key.gpg.key
+ 1464  echo "deb http://ossec.wazuh.com/repos/apt/debian wheezy main" >> /etc/apt/sources.list
+ 1465  sudo echo "deb http://ossec.wazuh.com/repos/apt/debian wheezy main" >> /etc/apt/sources.list
+ 1466  sudo su
+ 1467  cd
+ 1468  netstat -tulpn
+ 1469  ulimit -n
+ 1470  sudo nano /etc/security/limits.conf
+ 1471  curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-trusty-td-agent2.sh | sh
+ 1472  curl -X POST -d 'json={"json":"message"}' http://localhost:8888/debug.test
+ 1473  cd catalog-deploy
+ 1474  atom .
+ 1475  git pull https://github.com/gsa/catalog-deploy
+ 1476  gem install -V fluentd-ui
+ 1477  fluentd-ui start
+ 1478  sudo /usr/sbin/td-agent-ui start
+ 1479  sudo su
+ 1480  atom {"rule":{"level":3,"group":"ossec,","comment":"Ossec server started.","sidid":502},"location":"ossec-monitord","full_log":"ossec: Ossec starte$
+ 1481  {"rule":{"level":12,"group":"syslog,attacks,invalid_login,","comment":"System user successfully logged to the system.","sidid":40101},"srcuser$
+ 1482  {"rule":{"level":3,"group":"pam,syslog,authentication_success,","comment":"Login session opened.","sidid":5501},"location":"/var/log/auth.log"$
+ 1483  {"rule":{"level":3,"group":"pam,syslog,","comment":"Login session closed.","sidid":5502},"location":"/var/log/auth.log","full_log":"Jul 25 03:$
+ 1484  {"rule":{"level":4,"group":"syslog,sudo","comment":"First time user executed sudo.","sidid":5403},"dstuser":"root","location":"/var/log/auth.l$
+ 1485  {"rule":{"level":3,"group":"pam,syslog,authentication_success,","comment":"Login session opened.","sidid":5501},"location":"/var/log/auth.log"$
+ 1486  {"rule":{"level":3,"group":"pam,syslog,","comment":"Login session closed.","sidid":5502},"location":"/var/log/auth.log","full_log":"Jul 25 03:$
+ 1487  {"rule":{"level":3,"group":"syslog,sudo","comment":"Successful sudo to ROOT executed","sidid":5402},"dstuser":"root","location":"/var/log/auth$
+ 1488  {"rule":{"level":3,"group":"pam,syslog,authentication_success,","comment":"Login session opened.","sidid":5501},"location":"/var/log/auth.log"$
+ 1489  {"rule":{"level":3,"group":"pam,syslog,","comment":"Login session closed.","sidid":5502},"location":"/var/log/auth.log","full_log":"Jul 25 03:$
+ 1490  {"rule":{"level":3,"group":"syslog,sudo","comment":"Successful sudo to ROOT executed","sidid":5402},"dstuser":"root","location":"/var/log/auth$
+ 1491  {"rule":{"level":3,"group":"pam,syslog,authentication_success,","comment":"Login session opened.","sidid":5501},"location":"/var/log/auth.log"$
+ 1492  {"rule":{"level":7,"group":"ossec,","comment":"Listened ports status (netstat) changed (new port opened or closed).","sidid":533},"location":"$
+ 1493  {"rule":{"level":3,"group":"pam,syslog,","comment":"Login session closed.","sidid":5502},"location":"/var/log/auth.log","full_log":"Jul 25 04:$
+ 1494  {"rule":{"level":3,"group":"syslog,sudo","comment":"Successful sudo to ROOT executed","sidid":5402},"dstuser":"root","location":"/var/log/auth$
+ 1495  {"rule":{"level":3,"group":"pam,syslog,authentication_success,","comment":"Login session opened.","sidid":5501},"location":"/var/log/auth.log"$
+ 1496  {"rule":{"level":3,"group":"pam,syslog,","comment":"Login session closed.","sidid":5502},"location":"/var/log/auth.log","full_log":"Jul 25 04:$
+ 1497  {"rule":{"level":5,"group":"pam,syslog,authentication_failed,","comment":"User login failed.","sidid":5503},"dstuser":"john","location":"/var/$
+ 1498  {"rule":{"level":4,"group":"syslog,sudo","comment":"First time user executed sudo.","sidid":5403},"dstuser":"john","location":"/var/log/auth.l$
+ 1499  {"rule":{"level":3,"group":"pam,syslog,authentication_success,","comment":"Login session opened.","sidid":5501},"location":"/var/log/auth.log"$
+ 1500  {"rule":{"level":3,"group":"syslog,sudo","comment":"Successful sudo to ROOT executed","sidid":5402},"dstuser":"john","location":"/var/log/auth$
+ 1501  {"rule":{"level":3,"group":"pam,syslog,authentication_success,","comment":"Login session opened.","sidid":5501},"location":"/var/log/auth.log"$
+ 1502  {"rule":{"level":3,"group":"pam,syslog,","comment":"Login session closed.","sidid":5502},"location":"/var/log/auth.log","full_log":"Jul 25 04:$
+ 1503  {"rule":{"level":3,"group":"syslog,sudo","comment":"Successful sudo to ROOT executed","sidid":5402},"dstuser":"john","location":"/var/log/auth$
+ 1504  {"rule":{"level":3,"group":"pam,syslog,authentication_success,","comment":"Login session opened.","sidid":5501},"location":"/var/log/auth.log"$
+ 1505  {"rule":{"level":3,"group":"pam,syslog,","comment":"Login session closed.","sidid":5502},"location":"/var/log/auth.log","full_log":"Jul 25 06:$
+ 1506  {"rule":{"level":3,"group":"syslog,sudo","comment":"Successful sudo to ROOT executed","sidid":5402},"dstuser":"john","location":"/var/log/auth$
+ 1507  {"rule":{"level":3,"group":"pam,syslog,authentication_success,","comment":"Login session opened.","sidid":5501},"location":"/var/log/auth.log"$
+ 1508  {"rule":{"level":3,"group":"pam,syslog,","comment":"Login session closed.","sidid":5502},"location":"/var/log/auth.log","full_log":"Jul 25 08:$
+ 1509  atom /var/ossec/logs/alerts/alerts.json
+ 1510  sudo atom /var/ossec/logs/alerts/alerts.json
+ 1511  sudo service restart compiz
+ 1512  sudo service --status-all
+ 1513  sudo apt-get update
+ 1514  sudo apt-get upgrade
+ 1515  cd catalog-deploy
+ 1516  atom .
+ 1517  cd 
+ 1518  sudo su
+ 1519  lockscreen
+ 1520  sudo apt-get install screensaverx
+ 1521  sudo apt-get install xscreensaver
+ 1522  sudo apt-get install xscreensaver-data xscreensaver-data-extra xscreensaver-gl xscreensaver-gl-extra packages
+ 1523  xscreensaver
+ 1524  sudo apt-get install dconf-tools
+ 1525  dconf-editor
+ 1526  xscreensaver --help
+ 1527  sudo su
+ 1528  cd catalog-deploy
+ 1529  atom .
+ 1530  git pull https://github.com/gsa/catalog-deploy
+ 1531  git commit -a
+ 1532  git add --a
+ 1533  git commit -a
+ 1534  git pull https://github.com/gsa/catalog-deploy
+ 1535  cd graylog2
+ 1536  gem install fluent-plugin-docker
+ 1537  gem search -rd fluent-plugin
+ 1538  gem install fluentd-plugin-graylog
+ 1539  gem install fluent-plugin-graylog
+ 1540  gem install gelf
+ 1541  gem install fluent-plugin-gelp
+ 1542  fluent-gem install graylog
+ 1543  fluent-gem install fluent-plugin-graylog
+ 1544  gem search -rd fluent-plugin
+ 1545  gem search -rd fluent-plugin-graylog
+ 1546  fluent-gem install fluent-plugin-graylog
+ 1547  cd catalog-deploy
+ 1548  atom .
+ 1549  git add -a
+ 1550  git add --a
+ 1551  git commit -a
+ 1552  git push https://github.com/gsa/catalog-deploy
+ 1553  sudo service jenkins stop
+ 1554  docker run --name some-mongo -d mongo
+ 1555  mkdir graylog2
+ 1556  cd graylog2
+ 1557  nano docker-compose.yml
+ 1558  docker-compose up
+ 1559  wget https://raw.githubusercontent.com/Graylog2/graylog2-images/2.0/vagrant/Vagrantfile
+ 1560  vagrant up
+ 1561  ls
+ 1562  nano Vagrantfile
+ 1563  vagrant up
+ 1564  gem install fluentd-plugin-graylog
+ 1565  ruby
+ 1566  rvm use ruby-default
+ 1567  rvm install ruby-2.2.1-default
+ 1568  fluent-gem install fluent-plugin-docker
+ 1569  gem install fluent-plugin-docker
+ 1570  sudo su
+ 1571  cd catalog-app
+ 1572  atom .
+ 1573  docker-compose run app /bin/bash
+ 1574  /usr/bin/expect -c 'spawn ckan sysadmin add test expect "\n" send "y\r" expect "Password:" send "admin" expect "Confirm password:" send "admin"'
+ 1575  expect
+ 1576  sudo apt-get install expect
+ 1577  /usr/bin/expect -c 'spawn ckan sysadmin add test expect "\n" send "y\r" expect "Password:" send "admin" expect "Confirm password:" send "admin"'
+ 1578  cd catalog-app
+ 1579  docker-compose down
+ 1580  docker-compose up
+ 1581  sudo su
+ 1582  cd catalog-app
+ 1583  atom .
+ 1584  cd
+ 1585  cd catalog-deploy
+ 1586  atom .
+ 1587  cd catalog-deploy
+ 1588  git pull https://github.com/gsa/catalog-deploy
+ 1589  git clone https://github.com/JJediny/compliance-docs
+ 1590  cd complianced-docs
+ 1591  cd compliance-docs
+ 1592  git pull https://github.com/JJediny/compliance-docs
+ 1593  atom .
+ 1594  cvd
+ 1595  cd
+ 1596  cd datagovATO
+ 1597  atom .
+ 1598  sudo apt-get update
+ 1599  cd complaince-docs
+ 1600  cd compliance-docs
+ 1601  atom .
+ 1602  cd web-design-standards
+ 1603  git pull https://github.com/JJediny/web-design-standards
+ 1604  git pull https://github.com/18f/web-design-standards
+ 1605  atom .
+ 1606  jekyll serve
+ 1607  bundle install
+ 1608  jekyll serve
+ 1609  git add -a
+ 1610  git add --a
+ 1611  git commit -a
+ 1612  git pull https://github.com/18F/web-design-standards/tree/18f-pages
+ 1613  git status
+ 1614  git pull https://github.com/18F/web-design-standards/
+ 1615  jekyll build
+ 1616  rm /doc_assets/css/styleguide.scss
+ 1617  ls
+ 1618  git commit -a
+ 1619  jekyll build
+ 1620  sudo jekyll serve
+ 1621  jekyll serve
+ 1622  cd ..
+ 1623  rm -rf ./web-design-standards
+ 1624  git clone https://github.com/JJediny/web-design-standards
+ 1625  cd web-design-standards
+ 1626  git checkout 18f-pages
+ 1627  git branch gh-pages
+ 1628  git checkout gh-pages
+ 1629  atom .
+ 1630  jekyll serve
+ 1631  bundle install
+ 1632  jekyll serve
+ 1633  npm install .
+ 1634  jekyll serve
+ 1635  npm install --save uswds
+ 1636  sudo npm install --save uswds
+ 1637  npm install --save
+ 1638  sudo npm install --save
+ 1639  jekyll build
+ 1640  jekyll serve
+ 1641  jekyll build
+ 1642  npm install --save uswds
+ 1643  npm install --save
+ 1644  jekyll serve
+ 1645  npm install --save
+ 1646  npm install gulp -g
+ 1647  gulp
+ 1648  jekyll serve
+ 1649  bundle update
+ 1650  npm update
+ 1651  npm install
+ 1652  npm start
+ 1653  npm install
+ 1654  npm start
+ 1655  jekyll serve
+ 1656  npm -v
+ 1657  cd datagovATO
+ 1658  atom .
+ 1659  cd catalog-deploy
+ 1660  git pull
+ 1661  git pull https://github.com/gsa/catalog-app
+ 1662  atom .
+ 1663  git add --a
+ 1664  cd
+ 1665  git clone https://github.com/GSA/sdg-indicators
+ 1666  cd sdg-indicators
+ 1667  atom .
+ 1668  cd cg-compliance
+ 1669  git clone https://github.com/18F/cg-compliance
+ 1670  cd cg-compliance
+ 1671  atom .
+ 1672  cd
+ 1673  cd compliance-docs
+ 1674  jekyll build
+ 1675  chrome
+ 1676  google-chrome
+ 1677  firefox
+ 1678  cd
+ 1679  cd 
+ 1680  cd catalog-deploy
+ 1681  ls
+ 1682  sudo apt-get update
+ 1683  cd catalog-deploy
+ 1684  atom .
+ 1685  sudo apt-add-repository ppa:bitcoin/bitcoin
+ 1686  sudo apt-get update
+ 1687  sudo apt-get install bitcoin-qt bitcoind
+ 1688  sudo apt-get update
+ 1689  sudo apt-get install pinball
+ 1690  sudo apt-get upgrade
+ 1691  sudo rm /var/cache/apt/archives/lock
+ 1692  sudo apt-get update
+ 1693  sudo apt-get upgrade
+ 1694  sudo apt-get install -f pinball
+ 1695  pinball
+ 1696  ps -ef |grep apt
+ 1697  cd compliance-docs
+ 1698  atom .
+ 1699  git clone https://github.com/JJediny/exchange
+ 1700  cd exchange
+ 1701  vagrant up
+ 1702  vagrant ssh
+ 1703  sudo apt-get purge qgis
+ 1704  sudo apt-get autoremove
+ 1705  sudo apt-get update
+ 1706  sudo apt-get install qgis
+ 1707  qgis
+ 1708  cd catalog-deploy
+ 1709  git pull
+ 1710  atom .
+ 1711  nano .gitignore
+ 1712  nano secrets.yml
+ 1713  cd catalog-deploy
+ 1714  vagrant up
+ 1715  vagrant ssh
+ 1716  pinball
+ 1717  sudo apt-get purge bitcoin
+ 1718  sudo apt-get purge bitcoin-qt bitcoind
+ 1719  sudo apt-get update
+ 1720  sudo apt-get upgrade
+ 1721  sudo apt-get update
+ 1722  sudo add-apt-repository ppa:pmjdebruijn/darktable-release
+ 1723  sudo apt-get update
+ 1724  sudo apt-get install darktable
+ 1725  google-chrome
+ 1726  sudo google-chrome
+ 1727  sudo su
+ 1728  mnt 
+ 1729  sudo apt-get reinstall google-chrome
+ 1730  sudo su
+ 1731  cd compliance-docs
+ 1732  git add -a
+ 1733  git add --a
+ 1734  git commit -a
+ 1735  git push https://github.com/jjediny/compliance-docs
+ 1736  fstab
+ 1737  git clone https://github.com/rpicloud/kubernetes-on-arm
+ 1738  cd kubernetes-
+ 1739  kubernetes-on-arm
+ 1740  cd kubernetes-on-arm
+ 1741  la
+ 1742  ls
+ 1743  sudo fdisk -l
+ 1744  sudo sdcard/write.sh /dev/sde1 armv8 rancheros kube-systemd
+ 1745  sudo sdcard/write.sh /dev/sde1 armv8 archlinux kube-systemd
+ 1746  sudo fdisk -l
+ 1747  sudo sdcard/write.sh /dev/sde1 armv8 archlinux kube-systemd
+ 1748  sudo sdcard/write.sh /dev/sde armv8 archlinux kube-systemd
+ 1749  sudo fdisk -l
+ 1750  sudo mount /dev/sde
+ 1751  sudo mount /dev/sde1
+ 1752  sudo fdisk -l
+ 1753  sudo mount /dev/sde /microsd
+ 1754  sudo mount /dev/sde microsd
+ 1755  sudo sdcard/write.sh /dev/sde armv8 archlinux kube-systemd
+ 1756  ls
+ 1757  sudo sdcard/write.sh /dev/sde armv7 archlinux kube-systemd
+ 1758  sudo sdcard/write.sh /dev/sde armv8 archlinux kube-systemd
+ 1759  lsblk
+ 1760  sdcard/write.sh
+ 1761  sudo sdcard/write.sh /dev/sde rpi-3 archlinux kube-systemd
+ 1762  umount /dev/sde1
+ 1763  umount /dev/sde1 --help
+ 1764  umount -f /dev/sde1
+ 1765  sudo umount -f /dev/sde1
+ 1766  sudo sdcard/write.sh /dev/sde rpi-3 archlinux kube-systemd
+ 1767  sudo sdcard/write.sh /dev/sde rpi-3 rancheros kube-systemd
+ 1768  sudo sdcard/write.sh /dev/sde rpi-3 archlinux kube-systemd
+ 1769  lsblk
+ 1770  sudo apt-get install meshlab
+ 1771  meshlab
+ 1772  cinnamon --replace
+ 1773  sudo su
+ 1774  gconftool --recursive-unset /apps/panel
+ 1775  gsettings reset-recursively org.cinnamon 
+ 1776  sudo apt-get update
+ 1777  sudo apt-get upgrade
+ 1778  sudo add-apt-repository ppa:openscad/releases
+ 1779  sudo apt-get install openscad
+ 1780  git clone https://github.com/davidferguson/pibakery.git
+ 1781  cd pibakery
+ 1782  npm install
+ 1783  npm start
+ 1784  sudo npm start
+ 1785  sudo suy
+ 1786  sudo su
+ 1787  flash http://downloads.hypriot.com/hypriot-rpi-20151115-132854.img.zip
+ 1788  curl -O https://raw.githubusercontent.com/hypriot/flash/master/$(uname -s)/flash
+ 1789  chmod +x flash
+ 1790  sudo mv flash /usr/local/bin/flash
+ 1791  sudo apt-get install -y pv curl python-pip unzip hdparm
+ 1792  sudo pip install awscli
+ 1793  pip install --upgrade pip
+ 1794  sudo pip install --upgrade pip
+ 1795  flash https://downloads.hypriot.com/hypriotos-rpi-v1.0.0.img.zip
+ 1796  sudo su
+ 1797  flash -n pi3 -s DMM5M -p LMD876T522CTR6QM https://downloads.hypriot.com/hypriotos-rpi-v1.0.0.img.zip
+ 1798  sudo su
+ 1799  ssh pirate@pi2.local
+ 1800  ssh pirate@pi3.local
+ 1801  ssh pirate@pi4.local
+ 1802  cd AWS-keypair
+ 1803  ssh -i "FISMA-ready-test.pem" ubuntu@52.5.174.156
+ 1804  cd AWS-keypair
+ 1805  ssh -i "FISMA-ready-test.pem" ubuntu@52.5.174.156
+ 1806  git clone https://github.com/infobyte/faraday.git faraday-dev
+ 1807  cd faraday-dev
+ 1808  sudo ./install.sh
+ 1809  ./faraday-server.py
+ 1810  sudo ./faraday-server.py
+ 1811  sudo ./faraday.py
+ 1812  ./faraday.py
+ 1813  sudo ./faraday-server.py
+ 1814  pip install .
+ 1815  cd
+ 1816  mkvirtualenv faraday
+ 1817  virtualenv faraday
+ 1818  cd faraday
+ 1819  bin/activate
+ 1820  sudo bin/activate
+ 1821  source bin/activate
+ 1822  git clone https://github.com/JJediny/faraday
+ 1823  cd faraday
+ 1824  ./install.sh
+ 1825  sudo su
+ 1826  ./faraday-server.py
+ 1827  sudo ./install.sh
+ 1828  ./faraday-server.py
+ 1829  sudo service CouchDB restart
+ 1830  sudo service --status-all
+ 1831  cd
+ 1832  cd faraday-dev
+ 1833  ls
+ 1834  sudo ./install.sh
+ 1835  ./faraday-server.py
+ 1836  pip install service_identity
+ 1837  sudo pip install service_identity
+ 1838  ./faraday-server.py
+ 1839  sudo apt-get install couchdb
+ 1840  sudo service --status-all
+ 1841  ./faraday-server.py
+ 1842  couchdb
+ 1843  couchdb --help
+ 1844  cd ..
+ 1845  source bin/activate
+ 1846  ./faraday-server.py
+ 1847  ls
+ 1848  cd faraday
+ 1849  ./faraday-server.py
+ 1850  ls
+ 1851  pip install .
+ 1852  pip install
+ 1853  pip install requirements.txt
+ 1854  pip install twisted sqlalchemy pyopenssl
+ 1855  ./faraday-server.py
+ 1856  pip install pyopenssl
+ 1857  pip version pyopenssl
+ 1858  pip --help
+ 1859  pip search pyopenssl
+ 1860  ./faraday-server.py
+ 1861  atom .
+ 1862  ./faraday-server.py
+ 1863  su john
+ 1864  sudo apt-get install redis-server nmap
+ 1865  ./faraday-server.py
+ 1866  ssh pirate@pi2.local
+ 1867  ssh pirate@pi1.local
+ 1868  ssh pirate@pi3.local
+ 1869  git clone https://github.com/JJediny/federalist-modern-team-template
+ 1870  cd federalist-modern-team-template
+ 1871  gem install 
+ 1872  gem install .
+ 1873  jekyll serve
+ 1874  cd data.gov
+ 1875  atom .
+ 1876  cd
+ 1877  cd catalog-deploy
+ 1878  atom .
+ 1879  git pull https://github.com/gsa/catalog-deploy
+ 1880  git clone catalog-deply
+ 1881  git clone catalog-deploy
+ 1882  cd catalog-deploy
+ 1883  cd 
+ 1884  git clone https://github.com/GSA/ansible-td-agent
+ 1885  cd ansible-td-agent
+ 1886  atom .
+ 1887  cd
+ 1888  cd catalog-deploy
+ 1889  cd ansible
+ 1890  ls
+ 1891  cd roles
+ 1892  ls
+ 1893  cd security
+ 1894  git clone https://github.com/GSA/fail2ban
+ 1895  ls
+ 1896  git clone https://github.com/GSA/cis-hardening
+ 1897  cd
+ 1898  cd CurrentProjects
+ 1899  atom .
+ 1900  git clone https://github.com/GSA/ckanext-geodatagov
+ 1901  git clone https://github.com/GSA/ckan-php-manager
+ 1902  git clone https://github.com/GSA/ckan-php-client
+ 1903  git clone https://github.com/GSA/metric-count
+ 1904  git clone https://github.com/GSA/datagov-infrastructure
+ 1905  git clone https://github.com/GSA/jkan
+ 1906  docker run -d -p 80:80 -p 8080:8080 -p 5000:5000 --name monasca monasca/demo
+ 1907  git clone http://github.com/jjediny/compliance-docs
+ 1908  cd compliance-docs
+ 1909  atom .
+ 1910  git clone https://github.com/JJediny/CurrentProjects
+ 1911  cd CurrentProjects
+ 1912  git clone https://github.com/GSA/ckan
+ 1913  git clone https://github.com/GSA/catalog-deploy
+ 1914  git clone https://github.com/GSA/datagov-deploy
+ 1915  git add --a
+ 1916  git commit -a
+ 1917  git push 
+ 1918  ls
+ 1919  cd ckan
+ 1920  ls
+ 1921  cd
+ 1922  cd CurrentProjects
+ 1923  git clone https://github.com/GSA/data.gov
+ 1924  git clone https://github.com/GSA/sdg-indicators
+ 1925  git clone https://github.com/GSA/datagov-custom
+ 1926  git clone https://github.com/GSA/catalog-deploy
+ 1927  git clone https://github.com/GSA/open.gsa.gov
+ 1928  git clone https://github.com/GSA/ansible-td-agent
+ 1929  git clone https://github.com/GSA/USMetadata
+ 1930  git clone https://github.com/GSA/ckanext-datajson
+ 1931  git clone https://github.com/GSA/cis-ubuntu-ansible
+ 1932  git clone https://github.com/GSA/ckanext-archiver
+ 1933  git clone https://github.com/GSA/ckanext-qa
+ 1934  git clone https://github.com/GSA/catalog-app
+ 1935  git clone https://github.com/GSA/datapusher
+ 1936  git clone https://github.com/GSA/ckanext-datagovtheme
+ 1937  git clone https://github.com/GSA/ckanext-spatial
+ 1938  git clone https://github.com/GSA/ckanext-geodatagov
+ 1939  git clone https://github.com/GSA/ckan-php-manager
+ 1940  git clone https://github.com/GSA/ckan-php-client
+ 1941  git clone https://github.com/GSA/pycsw
+ 1942  git clone https://github.com/GSA/ckanext-harvest
+ 1943  git clone https://github.com/GSA/catalog-scheduler
+ 1944  cd catalog-app
+ 1945  ls
+ 1946  cd docker
+ 1947  ls
+ 1948  git clone https://github.com/GSA/catalog-pycsw
+ 1949  git clone https://github.com/GSA/catalog-db
+ 1950  git clone https://github.com/GSA/catalog-solr
+ 1951  git clone https://github.com/GSA/catalog-fgdc2iso
+ 1952  git clone https://github.com/GSA/catalog-nginx
+ 1953  cd ../../..
+ 1954  cd CurrentProjects
+ 1955  git add --a
+ 1956  git commit -a
+ 1957  cd catalog-app
+ 1958  git add --a
+ 1959  git commit -a
+ 1960  git clone https://github.com/GSA/catalog-solr
+ 1961  ls
+ 1962  rm -rf catalog-solr
+ 1963  cd docker 
+ 1964  git clone https://github.com/GSA/catalog-solr
+ 1965  ls
+ 1966  cd ..
+ 1967  git commit --a
+ 1968  git add --a
+ 1969  git commit -a
+ 1970  git push http://github.com/gsa/catalog-app
+ 1971  cd ..
+ 1972  git add --a
+ 1973  git commit -a
+ 1974  git push 
+ 1975  git clone https://github.com/GSA/datagov-cloud-migration
+ 1976  cd
+ 1977  cd cis-ubuntu-ansibl
+ 1978  cd cis-ubuntu-ansible
+ 1979  ls
+ 1980  atom .
+ 1981  git add --a
+ 1982  git commit -a
+ 1983  git pull https://github.com/awailly/cis-ubuntu-ansible
+ 1984  git commit -a
+ 1985  git push https://github.com/jjediny/cis-ubuntu-ansible
+ 1986  ls
+ 1987  git pull https://github.com/gsa/cis-ubuntu-ansible
+ 1988  git push https://github.com/gsa/cis-ubuntu-ansible
+ 1989  google-chromium
+ 1990  sudo service firefox restart
+ 1991  cd catalog-deploy
+ 1992  atom .
+ 1993  cd
+ 1994  cd owtf
+ 1995  ls
+ 1996  python owtf.py
+ 1997  sudo python owtf.py
+ 1998  git clone https://github.com/JJediny/etherpad-docker
+ 1999  cd etherpad-docker
+ 2000  ls
+ 2001  atom .
+ 2002  git add --a
+ 2003  git commit --a
+ 2004* git push 
+ 2005  git push https://github.com/JJediny/etherpad-docker
+ 2006  history
+ 2007  history > history.txt
