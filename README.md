@@ -1,18 +1,17 @@
-etherpad-docker
+etherpad-docker-arm
 ===============
 
-This is a Docker image which is nothing more than the basic test Etherpad setup as described on https://github.com/ether/etherpad-lite.
-(All of these instructions are as root.) To download the image from the Docker index, run:
+This is a Docker image which is nothing more than the basic test instance of an Etherpad setup as described on https://github.com/ether/etherpad-lite. To download the image from the Docker index, run:
 
-`docker pull leibnitius/etherpad-docker`
+`docker pull johnjediny/etherpad-docker`
 
 To run Etherpad on port 9001, run:
 
-`docker run -d -p 9001:9001 leibnitius/etherpad-docker`
+`docker run -d -p 9001:9001 johnjediny/etherpad-docker`
 
 To run Etherpad on port 80, run:
 
-`docker run -d -p 80:9001 leibnitius/etherpad-docker`
+`docker run -d -p 80:9001 johnjediny/etherpad-docker`
 
 To edit the Etherpad settings.json, it is necessary to clone the Git repository:
 
