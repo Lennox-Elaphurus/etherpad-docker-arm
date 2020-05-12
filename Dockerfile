@@ -7,8 +7,7 @@
 # Version 1.0
 
 # Use Docker's nodejs, which is based on ubuntu
-FROM hypriot/rpi-node
-MAINTAINER John E. Arnold, iohannes.eduardus.arnold@gmail.com
+FROM arm32v7/node
 
 # Get Etherpad-lite's other dependencies
 RUN apt-get update
